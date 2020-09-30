@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 body{
   min-height: 100vh;
@@ -100,6 +101,14 @@ hr{
   margin: 40px 18px;
 }
 
+#quote{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 1.3em;
+  color: #5D6D7E;
+
+}
+
 /* ---- Footer --- */
 
 footer{
@@ -164,6 +173,11 @@ footer p{
   margin: 8px 0 9px;
 
   }
+
+  #quote{
+  font-size: 1.7em;
+
+ }
 
 }
 
