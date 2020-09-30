@@ -123,6 +123,33 @@ footer p{
 }
 
 
+/* ------------- Custom ScrollBar ---------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 7px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D5DBDB; 
+  border-radius: 7px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /*background: linear-gradient(to bottom, #5DADE2, #48C9B0, #58D68D, #F7DC6F, #F8C471, #E59866, #EC7063);*/
+  background:  linear-gradient(to bottom, #5DADE2, #48C9B0, #58D68D);
+}
+
+
+
 /* -------------  MEDIA QUERIES ----------------*/
 
 @media screen and (min-width: 768px){
