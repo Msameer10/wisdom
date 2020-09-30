@@ -6,9 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body{
+  min-height: 100vh;
+}
 
 h1{
-	padding: 10px 0 20px;
+	padding: 0 0 20px;
 	font-size: 7em;
   margin: 0;
 
@@ -29,7 +34,7 @@ h1{
 
 .h1one , .h1two{
   font-family: Trajan Pro, Cinzel;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .h1one{
@@ -73,4 +78,29 @@ h1{
 .topnav #myLinks.a:hover {
   background-color: #ddd;
   color: black;
+}
+
+#samineon{
+  padding: 11px 0 5px 16px;
+  background-color: #F4F6F6;
+}
+
+/** Content Section **/
+
+#test{
+  margin: 5px 18px;
+}
+
+/* ---- Footer --- */
+
+footer{
+  background-color: #f2f3f4;
+  padding: 20px 0;
+}
+
+footer p{
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.6em;
+  font-weight: bold;
 }
