@@ -157,7 +157,44 @@ footer p{
   background:  linear-gradient(to bottom, #5DADE2, #48C9B0, #58D68D);
 }
 
+/* ----------- Cookies Callout -------------*/
 
+
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #E74C3C;
+  color: #ffffff;
+}
+
+.callout-container p a{
+  color: #00F3FF;
+  text-decoration: underline;
+}
+
+.closebtn {
+  position: absolute;
+  bottom: 8px;
+  right: 35%;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-width: 0;
+  font-family: Roboto Mono;
+  font-weight: bold;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
 
 /* -------------  MEDIA QUERIES ----------------*/
 
