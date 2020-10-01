@@ -109,6 +109,64 @@ hr{
 
 }
 
+nav.navbar{
+  background-color: #000;
+}
+
+li.nav-item{
+  padding: 0 30px;
+}
+
+a.nav-link{
+  color: #ffffff;
+}
+
+li.active{
+  background-color: #3498DB;
+}
+
+/* --------- Search Bar -----------*/
+ svg{
+  margin: 0 5px 0 20px;
+ }
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin: 0 0 12px;
+}
+
+
+
+/*------------ Cards -------------*/
+
+.container{
+  margin: 20px 0;
+}
+
+div.container{
+  margin: auto;
+}
+
+div.card{
+  margin: 10px 0;
+}
+
+h4.card-title, p.card-text{
+  margin-left: 15px;
+}
+
+.card-btn{
+  width: 100px;
+  margin: 0 0 20px 15px;
+  background-color: #2874A6;
+  color: #fff;
+}
+
 /* ---- Footer --- */
 
 footer{
@@ -216,6 +274,15 @@ footer p{
   font-size: 1.7em;
 
  }
+
+ #myInput {
+  width: 400px;
+ }
+
+ svg{
+  margin-left: 60%;
+ }
+
 
 }
 
