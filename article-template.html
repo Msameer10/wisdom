@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8">
+<!-- Icon Links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- W3 schools CSS -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Original CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+<title>WD x SN</title>
+</head>
+<body onload="typeWriter()">
+<!-- This website is mobile first -->
+
+<!-- Content Starts Here... -->
+
+<!-- Top Navigation Menu -->
+<div class="topnav d-md-none">
+  <a href="#" id="samineon"><span class="h1one">Sami</span><span class="h1two">neon</span></a>
+  <div id="myLinks">
+    <a href="../index.html">Home</a>
+    <a href="#">**********</a>
+    <a href="#">**********</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<h1 class="text-center w3-animate-opacity"><span class="wisdom">Wisdom</span><span id="h1samineon" class="d-none d-md-inline"><span id="x"> x </span><span class="h1one">Sami</span><span class="h1two">neon</span></span></h1><hr>
+
+<nav class="navbar navbar-expand-sm bg-active d-none d-lg-block">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="../index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">#######</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">#######</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+
+<!------------ Article Starts Here -------->
+<div class="container">
+
+<img src="" alt="">
+
+<h2 class="article-header">Article Header</h2>
+
+<p class="article-body">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque eros sed velit ullamcorper blandit. Mauris vitae tellus convallis, aliquam nisi eu, dictum sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur ex orci, dapibus ac viverra a, condimentum vel ex. Pellentesque dapibus nulla mauris, vitae congue neque scelerisque vitae. Aenean tincidunt molestie est in scelerisque. Nunc sodales odio id nisl feugiat aliquet. In accumsan vitae risus at tempor. Duis dolor sapien, viverra vel ligula eget, pulvinar condimentum erat.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus dapibus tempus mi non vestibulum. Etiam accumsan non lorem et congue. Ut molestie turpis vitae sem tincidunt vestibulum. Phasellus porta finibus eros, nec tempor nulla porta vitae. Donec dictum, enim at dictum pulvinar, neque neque eleifend nunc, sit amet viverra odio metus a quam. Aenean pellentesque purus sem, facilisis gravida erat bibendum et.
+
+Nullam vehicula massa auctor sollicitudin suscipit. Maecenas dignissim sed elit nec mattis. Curabitur ornare urna diam, ac aliquet dui congue nec. Quisque condimentum neque et metus porttitor, eget laoreet arcu vulputate. Aenean euismod malesuada odio, ac auctor massa. Suspendisse nec hendrerit eros. Curabitur porta, nulla volutpat aliquam ornare, mi arcu consequat augue, id consequat nulla nulla eu nulla. Nunc quis diam libero. Cras vitae nunc mauris. Nullam tempus sodales mauris, sit amet vestibulum diam. Etiam purus orci, tincidunt a tincidunt non, dictum vitae erat. Sed sit amet fringilla ligula, eu porttitor tellus. Aliquam vel imperdiet ex. Nulla volutpat ex in erat condimentum laoreet.
+
+Donec rhoncus ligula quis nisi rhoncus facilisis. In ac laoreet nulla. Vestibulum quis sem vel felis semper vestibulum. Donec sollicitudin ipsum faucibus purus vulputate, lobortis egestas tellus mattis. Proin volutpat sollicitudin nunc sit amet dapibus. Suspendisse ullamcorper metus at hendrerit ornare. Ut interdum tortor sed enim laoreet, eget lacinia arcu suscipit. Integer tempus ultricies turpis a iaculis. In porta lorem quis dui dapibus iaculis. Mauris lacinia condimentum bibendum. Suspendisse eget lorem eget tortor sagittis scelerisque. In neque ante, pulvinar at nisi quis, finibus tristique augue.
+
+Pellentesque id ligula tortor. Curabitur maximus eu quam ut ullamcorper. Sed neque mauris, luctus sed interdum sed, gravida vel enim. Aenean aliquam elementum tellus nec molestie. Vivamus sollicitudin laoreet purus, at dictum ex cursus vitae. Sed tincidunt ipsum non ante cursus, sed tincidunt felis eleifend. Praesent accumsan at libero id cursus. Morbi ultricies nisi at tincidunt finibus.
+</p>
+
+<span class="references">References :</span>
+
+<ul>
+  <li><a href="#">Just Text</a></li>
+</ul>
+
+
+
+
+
+
+</div>
+
+<!---------- Container Ends -------------->
+
+<script>
+var i = 0;
+var txt = "\“ The only true wisdom is in knowing you know nothing.\”"
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("quote").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<footer>
+  <div class="footer text-center">
+    <p>Copyrights &copy; 2020 Wisdom - Samineon. All Rights Reserved.</p>
+  </div>
+</footer>
+<div class="text-center" id="license">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>&emsp; This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+</div>
+</body>
+</html>
