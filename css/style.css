@@ -176,6 +176,11 @@ h4.card-title, p.card-text{
   margin: 20px 0 20px 10px; 
 }
 
+#article-img{
+  max-width: 100%;
+  height: auto;
+}
+
 .article-header{
   font-family: 'Arsenal', sans-serif;
   font-size: 2.5em;
