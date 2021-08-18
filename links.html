@@ -10,7 +10,7 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <!-- Original CSS -->
-<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
     
 <title>WD x SN</title>
 </head>
@@ -20,11 +20,11 @@
 <!-- Content Starts Here... -->
 
 <!-- Top Navigation Menu -->
-<div class="topnav d-md-none">
+<div class="topnav d-lg-none">
   <a href="#" id="samineon"><span class="h1one">Sami</span><span class="h1two">neon</span></a>
   <div id="myLinks">
-    <a href="../index.html">Home</a>
-    <a href="../links.html">Other Links</a>
+    <a href="index.html">Home</a>
+    <a href="links.html">Other Links</a>
     <!-- <a href="#about">*****</a> -->
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -45,55 +45,73 @@ function myFunction() {
 
 <h1 class="text-center w3-animate-opacity"><span class="wisdom">Wisdom</span><span id="h1samineon" class="d-none d-md-inline"><span id="x"> x </span><span class="h1one">Sami</span><span class="h1two">neon</span></span></h1><hr>
 
+<br>
+<p id="quote"></p>
+
 <nav class="navbar navbar-expand-sm bg-active d-none d-lg-block">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="../index.html">Home</a>
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="links.html">Other Links</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="../links.html">Other Links</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">#######</a>
+      <!-- <a class="nav-link" href="#">Link 3</a> -->
     </li>
   </ul>
 </nav>
 <br>
+<!------------- Content ---------------------->
 
 
-<!------------ Article Starts Here -------->
 <div class="container">
 
-<img src="https://cdn.britannica.com/54/150754-050-5B93A950/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg" class="img-fluid" id="article-img" alt="Statue of Christ">
 
-<h2 class="article-header">Christ The Redeemer</h2>
+<input type="text" id="itemInput" onkeyup="itemFunction()" placeholder="🔍 Search for Something.." title="Type in a item name"><br><br><br>
 
-<p class="article-body">
-Christ the Redeemer  is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa, in collaboration with French engineer Albert Caquot. Romanian sculptor Gheorghe Leonida fashioned the face. Constructed between 1922 and 1931, the statue is 30 metres (98 ft) high, excluding its 8-metre (26 ft) pedestal. The arms stretch 28 metres (92 ft) wide<br><br>
-
-The statue weighs 635 metric tons (625 long, 700 short tons), and is located at the peak of the 700-metre (2,300 ft) Corcovado mountain in the Tijuca Forest National Park overlooking the city of Rio de Janeiro. A symbol of Christianity across the world, the statue has also become a cultural icon of both Rio de Janeiro and Brazil, and is listed as one of the New7Wonders of the World. It is made of reinforced concrete and soapstone.<br><br>
-Vincentian priest Pedro Maria Boss first suggested placing a Christian monument on Mount Corcovado in the mid 1850s to honor Princess Isabel, regent of Brazil and the daughter of Emperor Pedro II, but the project was not approved. In 1889, the country became a republic, and due to the separation of church and state, the proposed statue was dismissed.<br><br>
-A group of engineers and technicians studied Landowski's submissions and felt building the structure of reinforced concrete (designed by Albert Caquot) instead of steel was more suitable for the cross-shaped statue. The concrete making up the base was supplied from Limhamn, Sweden. The outer layers are soapstone, chosen for its enduring qualities and ease of use.Construction took nine years, from 1922 to 1931 and cost the equivalent of US$250,000 (equivalent to $3,600,000 in 2019) and the monument opened on October 12, 1931.<br><br>
-
-</p>
-
-<span class="references" target="_blank">References :</span>
-
-<ul>
-  <li><a href="https://www.wikipedia.com/">Wikipedia</a></li>
-  <li>Image: <a href="http://www.britannica.com">Britannica</a></li>
-</ul>
-
-
-<span class="last-updte">Last updated: 03/10/2020</span><br><br><br>
-
-
+<table id="itemTable">
+  <tr class="header">
+    <th style="width:50%;background: #CCD1D1;">Topic</th>
+    <th style="width:50%;background: #CCD1D1;">Links</th>
+  </tr>
+  <tr>
+    <td>Genghis Khan</td>
+    <td> <a href="https://www.history.com/topics/china/genghis-khan" target="_blank">History.com</a>
+    <br><a href="https://www.britannica.com/biography/Genghis-Khan" target="_blank">Britannica.com</a></td>
+  </tr>
+  <tr>
+    <td>Mesopotamia</td>
+    <td><a href="https://www.history.com/topics/ancient-middle-east/mesopotamia" target="_blank">History.com</a>
+    <br><a href="https://www.britannica.com/place/Mesopotamia-historical-region-Asia" target="_blank">Britannica.com</a></td>
+  </tr>
+  <tr>
+    <td>Tower of Babylon</td>
+    <td><a href="https://www.britannica.com/topic/Tower-of-Babel" target="_blank">Britannica.com</a>
+    <br><a href="https://en.wikipedia.org/wiki/Tower_of_Babel" target="_blank">Wikipedia.com</a></td>
+  </tr>
+  <tr>
+    <td>Peloponnesian War</td>
+    <td><a href="https://www.history.com/topics/ancient-history/peloponnesian-war" target="_blank">History.com</a>
+    <br><a href="https://www.britannica.com/event/Peloponnesian-War" target="_blank">Britannica.com</a>
+    <br><a href="https://www.nationalgeographic.org/encyclopedia/peloponnesian-war/" target="_blank">National Geographic</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="#" target="_blank"></a>
+    <br><a href="#" target="_blank"></a></td>
+  </tr>
+</table>
 
 
 
 </div>
 
-<!---------- Container Ends -------------->
+
+
+
+<br><br><br><br><br><br>
+<!-- ------- Typewriting Script -------->
 
 <script>
 var i = 0;
@@ -109,6 +127,37 @@ function typeWriter() {
 }
 </script>
 
+<!-- Search script -->
+
+<script>
+function itemFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("itemInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("itemTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<!-- Cookies Callout -->
+
+<div class="callout">
+  <div class="callout-container">
+    <p>This website uses cookies to ensure you get the best experience on this website. <a href="#">Learn more</a></p><br>
+    <button class="closebtn" onclick="this.parentElement.style.display='none';">Got It !</button>
+  </div>
+</div>
 
 
 
