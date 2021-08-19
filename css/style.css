@@ -331,7 +331,7 @@ footer p{
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 60%;
-  font-size: 2vh;
+  font-size: 1em;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin: 12px 0 12px 20%;
@@ -341,7 +341,7 @@ footer p{
   border-collapse: collapse;
   width: 100%;
   border: 1px solid #ddd;
-  font-size: 2.5vh;
+  font-size: 1.5em;
   width: 80%;
   margin: auto;
 }
@@ -354,7 +354,4 @@ footer p{
 #itemTable tr {
   border-bottom: 1px solid #ddd;
 }
-
-
-
 
