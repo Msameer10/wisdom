@@ -213,10 +213,10 @@ footer{
   padding: 20px 0;
 }
 
-footer p{
+.footer p{
   margin: 0;
   font-family: 'Roboto Mono', monospace;
-  font-size: 0.74em;
+  font-size: 1.35em;
   font-weight: bold;
   letter-spacing: -0.050em;
 }
@@ -316,7 +316,7 @@ footer p{
 }
 
 #itemTable th, #itemTable td {
-  text-align: left;
+  text-align: center;
   padding: 12px;
 }
 
